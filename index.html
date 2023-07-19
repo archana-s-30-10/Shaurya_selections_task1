@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Form</title>
+    <link rel="stylesheet" type="text/css" href="Shaurya.css" />
+  </head>
+  <body>
+    <button id="home">Registration Form</button>
+    <div class="regform">
+      <form class="regformcontent">
+        <div class="field" id="cntr">
+          Number of Registered Players : 0
+        </div>
+        <div class="field">
+          <label for="name">Name :</label>
+          <input type="text" id="name" placeholder="Full Name" />
+          <small class="errmsg"></small>
+          <br />
+        </div>
+        <div class="field">
+          <label for="email">Email ID :</label>
+          <input type="email" id="email" placeholder="abc@gmail.com" />
+          <small class="errmsg"></small>
+          <br />
+        </div>
+        <div class="field">
+          <label for="password">Password :</label>
+          <input type="password" id="password" placeholder="Password" />
+          <small class="errmsg"></small>
+          <br />
+        </div>
+        <div class="field">
+          <label for="phone">Phone Number :</label>
+          <input type="text" id="phone" placeholder="Phone" />
+          <small class="errmsg"></small>
+          <br />
+        </div>
+        <label>Gender: </label>
+        <div>
+          <input name="rdGender" type="radio" value="Male" checked />
+          <label>Male</label>
+          <input name="rdGender" type="radio" value="Female" />
+          <label>Female</label>
+          <input name="rdGender" type="radio" value="Others" />
+          <label>Others</label>
+        </div>
+        <br />
+        <div>
+          <label>Select the sports that you are interested in: </label>
+          <br />
+          <input type="checkbox" class="myCheckbox" value="Tennis" />
+          <label>Tennis</label>
+          <input type="checkbox" class="myCheckbox" value="Volleyball" />
+          <label>Volleyball</label>
+          <input type="checkbox" class="myCheckbox" value="Badminton" />
+          <label>Badminton</label>
+          <input type="checkbox" class="myCheckbox" value="Basketball" />
+          <label>Basketball</label>
+          <input type="checkbox" class="myCheckbox" value="Cricket" />
+          <label>Cricket</label>
+          <input type="checkbox" class="myCheckbox" value="Football" />
+          <label>Football</label>
+          <input type="checkbox" class="myCheckbox" value="Athletics" />
+          <label>Athletics</label>
+          <input type="checkbox" class="myCheckbox" value="Hockey" />
+          <label>Hockey</label>
+          <input type="checkbox" class="myCheckbox" value="Table Tennis" />
+          <label>Table Tennis</label>
+          <br />
+          <small class="errmsg"></small>
+        </div>
+        <br />
+        <button type="submit" class="registerbtn">Sign Up</button>
+        <span class="close">&times;</span>
+      </form>
+    </div>
+    <script src="Shaurya.js"></script>
+  </body>
+</html>
